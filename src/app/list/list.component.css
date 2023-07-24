@@ -1,0 +1,156 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    border: none;
+    padding: 8px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  
+
+  .header .header-text {
+    margin-left: 15px;
+    font-weight: bold; /* Set the text to bold */
+    font-size: 24px; /* Add 5px gap between the icon and the text */
+    /* Add any styles for the text (optional) */
+  }
+  
+  
+  .alternate-row {
+    background-color: #f2f2f2; /* Change this to your preferred color */
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .containe{
+    margin-top: 120px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+ 
+
+  }
+  .containe .header-text{
+    color:black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 5px;
+  }
+  .container1 .header-text {
+    color: black; /* Set text color to white */
+    font-weight: bold; /* Set the text to bold */
+    font-size: 24px; /* Increase the font size to 24px */
+    margin-left: 5px; /* Add some space between the icon and the text */
+  }
+
+  .fa-sun{
+    font-size: 24px;
+    color: black;
+  }
+  
+  .container1{
+    margin-top: 70px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+  }
+  .fa-bar-chart{
+    font-size: 24px;
+    float:right;
+    padding-top:8px
+  }
+  
+
+ 
+  .fa-cogs{
+    font-size: 24px;
+  }
+  .container2 .header-text {
+    color: black; /* Set text color to white */
+    font-weight: bold; /* Set the text to bold */
+    font-size: 24px; /* Increase the font size to 24px */
+    margin-left: 5px; /* Add some space between the icon and the text */
+  }
+  .container2{
+    margin-top: 70px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+
+  }
+  .fa-user-times{
+    font-size: 24px;
+  }
+  .container3 .header-text {
+    color: black; /* Set text color to white */
+    font-weight: bold; /* Set the text to bold */
+    font-size: 24px; /* Increase the font size to 24px */
+    margin-left: 5px; /* Add some space between the icon and the text */
+  }
+  .icon-wrapper {
+    position: absolute; /* Set the icon wrapper as an absolutely positioned element */
+    top: 135px; /* Set the top position to 50px from the top of the container */
+    right: 0; /* Align the icon to the right side of the container */
+  }
+  
+  
+  /* Styles for the icon */
+  .icon-wrapper i {
+    font-size: 24px; /* Set the font size of the icon as needed */
+    color: black; /* Set the color of the icon to white */
+    background-color: white; /* Set a background color for the icon (optional) */
+    /* Add some padding around the icon for better visual appearance (optional) */
+  }
+  .hole{
+    padding-bottom: 25px;
+  }
+ 
+  .fa-key {
+    
+    font-size: 24px;
+    float: left; /* Set the font size of the icon as needed */
+ /* Add some margin at the bottom to separate the icon and heading */
+  }
+ 
+  .fa-user-plus{
+    font-size: 24px;
+  }
+  .container4 .header-text {
+    color: black; /* Set text color to white */
+    font-weight: bold; /* Set the text to bold */
+    font-size: 24px; /* Increase the font size to 24px */
+    margin-left: 5px;
+     /* Add some space between the icon and the text */
+  }
+  
+  
+  
+  
+  
+  
+  .white-icon {
+    color: white;
+  }
+  
+  .container3{
+   margin-top: 70px;
+   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+  }
+  .container4{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+  }
+  td, th {
+    border:none;
+    padding: 8px;
+  }
+  
+  /* Style for the header row */
+  .header-row {
+    background-color: rgb(6, 173, 238);
+    color: white;
+  }
