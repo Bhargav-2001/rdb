@@ -1,7 +1,5 @@
 <div class="hole">
   <!-- Table 1 -->
-
-  <!-- Table 1 -->
   <div class="containe">
     <i class="fa fa-key" aria-hidden="true"></i>
     <span class="header-text">TEAM - RELEASE BASED</span>
@@ -22,75 +20,62 @@
     </div>
   </div>
 
-
-
-
-<div class="container1">
-  <i class="fa-solid fa-sun"></i>
-  <span class="header-text">TEAM - DESIGNATION BASED</span>
-  <i class="fa fa-bar-chart" aria-hidden="true" matTooltip="View Chart" matTooltipPosition="right"></i>
-
-  <div *ngIf="apiResponse1.length === 0">Loading...</div>
-  <div *ngIf="apiResponse1.length > 0">
-    <table>
-      <tr class="header-row">
-        <th *ngFor="let heading of tableHeadings">{{ heading }}</th>
-      </tr>
-      <tr *ngFor="let row of apiResponse1; let even = even" [ngClass]="{ 'alternate-row': even }">
-        <td>{{ row.Value }}</td>
-        <td>{{ row.Count }}</td>
-        <td>{{ row.Percentage }}</td>
-      </tr>
-    </table>
-  </div>
-</div>
-
-
-
-  <!-- <div class="container2">
-    <i class="fa fa-cogs" aria-hidden="true"></i>
-    <span class="header-text">STATUS</span>
+  <!-- Table 2 -->
+  <div class="container1">
+    <i class="fa-solid fa-sun"></i>
+    <span class="header-text">TEAM - DESIGNATION BASED</span>
     <i class="fa fa-bar-chart" aria-hidden="true" matTooltip="View Chart" matTooltipPosition="right"></i>
 
-    <table>
-      <tr class="header-row">
-        <th *ngFor="let heading of table2Headings">{{ heading }}</th>
-      </tr>
-      <tr *ngFor="let row of data2; let even = even" [ngClass]="{ 'alternate-row': even }">
-        <td *ngFor="let cell of row">{{ cell }}</td>
-      </tr>
-    </table>
+    <div *ngIf="apiResponseDesignation.length === 0">Loading...</div>
+    <div *ngIf="apiResponseDesignation.length > 0">
+      <table>
+        <tr class="header-row">
+          <th *ngFor="let heading of tableHeadings">{{ heading }}</th>
+        </tr>
+        <tr *ngFor="let row of apiResponseDesignation; let even = even" [ngClass]="{ 'alternate-row': even }">
+          <td>{{ row.Value }}</td>
+          <td>{{ row.Count }}</td>
+          <td>{{ row.Percentage }}</td>
+        </tr>
+      </table>
+    </div>
   </div>
 
- 
+  <!-- Table 3 -->
   <div class="container3">
     <i class="fa fa-user-times" aria-hidden="true"></i>
     <span class="header-text">RESIGNED</span>
     <i class="fa fa-bar-chart" aria-hidden="true" matTooltip="View Chart" matTooltipPosition="right"></i>
-
-    <table>
-      <tr class="header-row">
-        <th *ngFor="let heading of table4Headings">{{ heading }}</th>
-      </tr>
-      <tr *ngFor="let row of data3; let even = even" [ngClass]="{ 'alternate-row': even }">
-        <td *ngFor="let cell of row">{{ cell }}</td>
-      </tr>
-    </table>
+    <div *ngIf="apiResponseResigned.length > 0">
+      <table>
+        <tr class="header-row">
+          <th *ngFor="let heading of tableHeadings">{{ heading }}</th>
+        </tr>
+        <tr *ngFor="let row of apiResponseResigned; let even = even" [ngClass]="{ 'alternate-row': even }">
+          <td>{{ row.Value }}</td>
+          <td>{{ row.Count }}</td>
+          <td>{{ row.Percentage }}</td>
+        </tr>
+      </table>
+    </div>
   </div>
 
- 
+  <!-- Table 4 -->
   <div class="container4">
     <i class="fa fa-user-plus" aria-hidden="true"></i>
     <span class="header-text">ONBOARD</span>
     <i class="fa fa-bar-chart" aria-hidden="true" matTooltip="View Chart" matTooltipPosition="right"></i>
-
-    <table>
-      <tr class="header-row">
-        <th *ngFor="let heading of table4Headings">{{ heading }}</th>
-      </tr>
-      <tr *ngFor="let row of data4; let even = even" [ngClass]="{ 'alternate-row': even }">
-        <td *ngFor="let cell of row">{{ cell }}</td>
-      </tr>
-    </table>
-  </div> -->
-</div> 
+    <div *ngIf="apiResponseOnboarding.length > 0">
+      <table>
+        <tr class="header-row">
+          <th *ngFor="let heading of tableHeadings">{{ heading }}</th>
+        </tr>
+        <tr *ngFor="let row of apiResponseOnboarding; let even = even" [ngClass]="{ 'alternate-row': even }">
+          <td>{{ row.Value }}</td>
+          <td>{{ row.Count }}</td>
+          <td>{{ row.Percentage }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
